@@ -1,0 +1,21 @@
+{
+  "name": "stann-dev-theme",
+  "displayName": "stann-dev-theme",
+  "description": "best color theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "stann-dev theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/stann-dev theme-color-theme.json"
+      }
+    ]
+  }
+}
