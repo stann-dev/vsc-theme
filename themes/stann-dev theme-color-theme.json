@@ -2,7 +2,7 @@
   "name": "stann-dev theme",
   "semanticHighlighting": true,
   "colors": {
-    "activityBar.background": "#1d1f23",
+    "activityBar.background": "#1d2129",
     "activityBar.foreground": "#d7dae0",
     "activityBarBadge.background": "#528bff",
     "activityBarBadge.foreground": "#f8fafd",
@@ -32,11 +32,11 @@
     "editorWidget.background": "#181a1f",
     "focusBorder": "#181a1f",
     "input.background": "#1d1f23",
-    "list.activeSelectionBackground": "#121212",
+    "list.activeSelectionBackground": "#3d4555",
     "list.activeSelectionForeground": "#d7dae0",
     "list.focusBackground": "#383e4a",
     "list.highlightForeground": "#c5c5c5",
-    "list.hoverBackground": "#121212",
+    "list.hoverBackground": "#3b3c44",
     "list.inactiveSelectionBackground": "#121212",
     "list.inactiveSelectionForeground": "#d7dae0",
     "peekView.border": "#202020",
@@ -52,7 +52,7 @@
     "statusBar.foreground": "#9da5b4",
     "statusBar.noFolderBackground": "#020202",
     "statusBarItem.hoverBackground": "#2c313a",
-    "tab.activeBackground": "#121212",
+    "tab.activeBackground": "#333944",
     "tab.border": "#181a1f",
     "tab.inactiveBackground": "#181a1f",
     "titleBar.activeBackground": "#020202",
@@ -186,7 +186,7 @@
     "editorBracketHighlight.foreground3": "#F8F8F2",
     "editorBracketHighlight.foreground4": "#F8F8F2",
     "editorBracketHighlight.foreground5": "#F8F8F2",
-    "editorBracketHighlight.foreground6": "#F8F8F2",
+    "editorBracketHighlight.foreground6": "#F8F8F2"
     //"editorBracketHighlight.unexpectedBracket.foreground": "#ff1212cc",
     //"editorBracketMatch.background": "#0064001a",
     //"editorBracketMatch.border": "#888888",
@@ -880,7 +880,10 @@
       }
     },
     {
-      "scope": ["punctuation.definition.template-expression", "punctuation.section.embedded"],
+      "scope": [
+        "punctuation.definition.template-expression",
+        "punctuation.section.embedded"
+      ],
       "settings": {
         "foreground": "#F8F8F2"
       }
@@ -917,7 +920,11 @@
     //   }
     // },
     {
-      "scope": ["variable.parameter", "variable.property", "meta.object.member.tsx"],
+      "scope": [
+        "variable.parameter",
+        "variable.property",
+        "meta.object.member.tsx"
+      ],
       "settings": {
         "foreground": "#FD971F",
         "fontStyle": "italic"
@@ -1220,6 +1227,6 @@
       "settings": {
         "foreground": "#B267E6"
       }
-    },
+    }
   ]
 }
